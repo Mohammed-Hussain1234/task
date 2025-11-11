@@ -16,4 +16,7 @@ def home(request,name):
 def hrs(request,number):
     return HttpResponse(f'hrs page-welcome {number**2}')
 
+def sum(request,a,b):
+    return HttpResponse(f'sum of {a} and {b} is {a+b}')
+
 # Create your views here.
